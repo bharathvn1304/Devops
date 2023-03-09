@@ -14,4 +14,8 @@ sample() {
 }
 
 sample
+
+sample
+
+sample
 # This is how we call a function.
