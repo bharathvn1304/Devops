@@ -19,6 +19,9 @@ sample() {
     echo "Todays date is $(date +%F)"
     echo "Load Average On The system is $(uptime | awk -F : '{print $NF}' | awk -F , '{print $1}')"
     echo "stat function completed"
+
+    echo "calling sample function"
+sample
  }
     echo "calling stat function"
 stat
